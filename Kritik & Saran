@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kritik & Saran</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .welcome-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-container img {
+    width: 100px; 
+    margin: 0 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="welcome-container">
+            <img src="22.jpg" alt="Gambar Kiri" class="welcome-image">
+            <h1 class="welcome-title">KRITIK DAN SARAN</h1>
+            <img src="smk.png" alt="Gambar Selamat Datang" class="welcome-image">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="demokrasi.html">Demokrasi Sekolah</a></li>
+                <li><a href="Kritik & Saran.html">Kritik & Saran</a></li>
+                <li><a href="Struktur Kelas.html">Struktur Kelas</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Silahkan berikan kritik dan saran</h2>
+        <form action="#" method="POST">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="kritik">Kritik/Saran:</label>
+            <textarea id="kritik" name="kritik" rows="4" required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+      <div class="kontak">
+            <h3>Kontak</h3>
+            <div class="info-kontak">
+              <img src="email.png" alt="Email">
+              <p>smkn3bdrn@gmail.com</p>
+            </div>
+            <div class="info-kontak">
+              <img src="tlpn.jpg" alt="Telepon">
+              <p>0318961218</p>
+            </div>
+         </div>
+         <style>
+            .kontak {
+      border: 1px solid #81b2eb; /* Tambahkan border agar terlihat seperti kotak */
+      padding: 20px;
+      margin-top: 20px; /* Jarak dari kotak kritik dan saran */
+    }
+    
+    .info-kontak img {
+      width: 40px; /* Sesuaikan ukuran ikon */
+      height: 30px;
+      margin-right: 10px;
+    }
+    
+        </style>
+    </main>
+
+    <footer>
+        <p>&copy; Made by : VELICIA ECHA </p>
+      </footer>
+      <style>
+        footer {
+  background-color:hwb(209 5% 43%); /* Warna latar belakang footer */
+  padding: 5px; /* Jarak padding di dalam footer */
+  text-align: center; /* Teks rata tengah */
+  font-size: 14px; /* Ukuran font */
+  color: #333; /* Warna teks */
+  border-top: 1px solid #ddd; /* Garis pembatas atas */
+}
+
+footer p {
+  margin: 2px 0; /* Jarak margin antar paragraf */
+  color: #a6ff00; /* Warna tautan */
+  text-decoration: bold;
+}
+
+
+footer a:hover {
+  text-decoration: underline; /* Garis bawah saat tautan dihover */
+}
+      </style>
+</body>
+</html>
